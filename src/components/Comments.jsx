@@ -1,7 +1,7 @@
 import ellipse from "../assets/images/ellipse.png";
 import Heart from "../assets/images/Heart.png";
 import bitmap from "../assets/images/bitmap.png";
-import vect from "../assets/images/vect.png"
+// import vect from "../assets/images/vect.png"
 import Mask from "../assets/images/Mask.png"
 const Comments = () =>{
     return(
@@ -11,7 +11,7 @@ const Comments = () =>{
             <span className="flex align-center justify-between">
                <span className="flex"> <img className="rounded-[100px]" src={bitmap} alt="" />
                 <h3 className="flex text-[#181A20] text-[20px] pl-[30px]">Richard Flynn</h3></span>
-                <img className="self-end" src={vect} alt="" />
+                {/* <img className="self-end" src={vect} alt="" /> */}
             </span>
             <h2>Loving this recipe! So many delicious recipes to choose from...</h2>
             <span className="flex">
@@ -25,7 +25,7 @@ const Comments = () =>{
             <span className="flex align-center justify-between">
                <span className="flex"> <img className="rounded-[100px]" src={Mask} alt="" />
                 <h3 className="flex text-[#181A20] text-[20px] pl-[30px]">Mitchell Oconnor</h3></span>
-                <img className="self-end" src={vect} alt="" />
+                {/* <img className="self-end" src={vect} alt="" /> */}
             </span>
             <h2>Loving this recipe! So many delicious recipes to choose from...</h2>
             <span className="flex">
@@ -39,7 +39,7 @@ const Comments = () =>{
             <span className="flex align-center justify-between">
                <span className="flex"> <img className="rounded-[100px]" src={ellipse} alt="" />
                 <h3 className="flex text-[#181A20] text-[20px] pl-[30px]">Finnegan Ortega</h3></span>
-                <img className="self-end" src={vect} alt="" />
+                {/* <img className="self-end" src={vect} alt="" /> */}
             </span>
             <h2>Loving this recipe! So many delicious recipes to choose from...</h2>
             <span className="flex">
